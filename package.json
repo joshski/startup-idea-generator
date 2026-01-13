@@ -1,9 +1,12 @@
 {
-  "name": "ralph-kit",
+  "name": "startup-idea-generator",
   "version": "1.0.0",
-  "description": "A starter kit for agent-driven development with ralph and beads.",
+  "description": "Generate random startup ideas",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "startup-idea": "dist/cli.js"
+  },
   "scripts": {
     "build": "tsc",
     "test": "vitest run",

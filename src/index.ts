@@ -1,0 +1,1 @@
+export { generateIdea } from './ideas'
